@@ -10,8 +10,8 @@ import time
 from datetime import datetime
 #from database.users_chats_db import db
 
-API_ID = "14050586"
-API_HASH = "42a60d9c657b106370c79bb0a8ac560c"
+API_ID = "28426339"
+API_HASH = "02d8057f2a15133f1aa0d869ba93c84b"
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
 MONGO_URL = os.environ.get("MONGO_URL", "")
 
@@ -337,5 +337,5 @@ async def vickprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"🎄𝗜𝗡𝗖𝗥𝗜𝗖𝗜𝗕𝗟𝗘 𝗖𝗛𝗔𝗧𝗕𝗢𝗧 𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗 𝗚𝗢 𝗔𝗡𝗗 𝗘𝗡𝗝𝗢𝗬🎄 ")      
+print(f"🎄 Zehar 𝗖𝗛𝗔𝗧𝗕𝗢𝗧 𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗 𝗚𝗢 𝗔𝗡𝗗 𝗘𝗡𝗝𝗢𝗬🎄 ")      
 bot.run()
